@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Simple Carousel</title>
+
+        <style>
+            body{
+                background-color: #deb878;
+            }
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                text-transform: capitalize;
+            }
+
+            .carousel-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px; /* Adjust based on your image height */
+            }
+            .myslides {
+                display: none;
+                max-height: 100%; /* Ensure images fit within container */
+                max-width: 100%;
+            }
+        </style>    
+    </head>
+    <body>
+
+        <script src="script.js"></script>
+        <h1>my Favourite places</h1>
+
+        <div class="carousel-container">
+            <img class="myslides" src="1.jpg" height="300" width="300" alt="Slide1">
+            <img class="myslides" src="31.jpg" height="300" width="300" alt="Slide2">
+            <img class="myslides" src="download.jpg" height="300" width="300" alt="Slide3">
+        </div>
+    </body>
+</html>
